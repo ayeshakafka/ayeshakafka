@@ -27,5 +27,6 @@ public class AsyncDemo {
             producer.send(new ProducerRecord("newtopic2","Asynchrouns message no:" +i));
         }
         producer.close();
+        // hey this is new updated code
     }
 }
